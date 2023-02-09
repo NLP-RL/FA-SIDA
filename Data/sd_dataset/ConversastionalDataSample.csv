@@ -1,0 +1,48 @@
+Dialogue ID,9125,,
+Patient,Doctor,Symptom,Intent type
+"Hello doctor, I am suffering from skin rash issue. Would you please tell me its cause?",Sure. Do you have Lip swelling?,O O O O O O O B-Symptom I-Symptom O O O O O O O O O,Symptom
+"Yes, I observed lip swelling.",Are you also suffering from Shortness of breath?,O O O B-Syptom O,Symptom
+"True, I am dealing with Shortness of breath.","Ok, have you got throat swelling?",O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+That is right.,"Okay, based on your symptoms, you might have Drug reaction.",O O O O,Affirmative
+"Disease: Drug reaction, Group: 19",,,
+,,,
+Dialogue ID,1812,,
+Patient,Doctor,Symptom,Intent type
+"Doctor, I am suffering from Fever.","Ok, have you got Skin rash too?",O O O O O O B-Symptom O,Symptom
+You are correct.,Are you suffering from Vomiting?,O O O O,Affirmative
+"Yes, doctor.",Do you have Mouth ulcer?,O O O O,Affirmative
+"Yes, I have mouth ulcer.",Do you have Difficulty in swallowing?,O O O O B-Symptom I-Symptom O,Symptom
+"Exactly, I have Difficulty in swallowing.","Then, you might have Erythema multiforme.",O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Disease: Erythema multiforme, Group: 12",,,
+,,,
+Dialogue ID,22535,,
+Patient,Doctor,Symptom,Intent type
+"Hello doctor, I am suffering from Blindness. Please, tell me its cause.","Ok. Tell me, are you having Diminished vision issues?",O O O O O O O B-Symptom O O O O O O O O,Symptom
+"Yes, I have noticed Diminished vision.","Fine, have you got Symptoms of eye?",O O O O O B-Symptom I-Symptom O,Symptom
+I have felt so.,"Alright, `I think you have Central retinal artery or vein occlusion.",O O O O O,Affirmative
+"Disease: Central retinal artery or vein occlusion, Group: 7",,,
+,,,
+Dialogue ID,13025,,
+Patient,Doctor,Symptom,Intent type
+"Doctor, I have experienced Diminished hearing. Would you please tell me its cause?","Sure. First tell me, do you got Ear pain?",O O O O O B-Symptom I-Symptom O O O O O O O O O,Symptom
+"Indeed, doctor.",Have you seen Redness in ear.,O O O O,Affirmative
+"Yes, I have seen redness in ear.","Also, have you got Ringing in ear?",O O O O O O O O O,Symptom
+"For sure, I am struggling with it.",Are you also dealing with Difficulty speaking?,O O O O O O O O O,Affirmative
+"Yes, I have got Difficulty speaking.","Fine, as per your symptoms, you have Conductive hearing loss.",O O O O O B-Symptom I-Symptom O,Symptom
+"Disease: Conductive hearing loss, Group: 7",,,
+,,,
+Dialogue ID,15194,,
+Patient,Doctor,Symptom,Intent type
+"Hi doctor, I have got Leg weakness.","Alright, have you got Loss of sensation too?",O O O O O O B-Symptom I-Symptom O,Symptom
+"True, I have felt so.",Do you have Leg or finger pain?,O O O O O O O,Affirmative
+"Yes, I have got Leg or finger pain.",Are you suffering from Weakness?,O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+"So true, I have got it.",Are you suffering from Problems with movement?,O O O O O O O O,Affirmative
+"Indeed, I am struggling with it.",Have you got Facial pain?,O O O O O O O O,Affirmative
+"Yes, I have facial pain too.","Fine, you are suffering from Guillain Barre syndrome.",O O O O B-Symptom I-Symptom O O,Symptom
+,,,
+Dialogue ID,16427,,
+Patient,Doctor,Symptom,Intent type
+Hi doctor. Please tell me the cause of my Dizziness?,Sure. are you suffering from Diminished hearing?,O O O O O O O O O O B-Symptom O,Symptom
+"Yes, I am dealing with Diminished hearing.","OK, do you feel Ringing in ear?",O O O O O O B-Symptom I-Symptom O,Symptom
+"Sometimes, I feel Ringing in ear.","Alright, have you got Swollen or red tonsils? Open your mouth.",O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Yes, doctor.",Fine. Your symptoms analysis suggests that you have Conductive hearing loss.,O O O O,Symptom
